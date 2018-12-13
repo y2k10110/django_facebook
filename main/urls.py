@@ -26,7 +26,7 @@ urlpatterns = [
     path('help/', help),
     path('fail/', fail),
     path('warn/', warn),
-    path('/', newsfeed),
+    path('', newsfeed),
     path('feed/<pk>/', detail_feed),
     path('new/', new_feed),
     path('feed/<pk>/edit/', edit_feed),
